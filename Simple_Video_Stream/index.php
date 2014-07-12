@@ -10,7 +10,7 @@ if(isset($_GET['play'])){
 		<param name="allowFullScreen" value="true">
 		<param name="wmode" value="transparent">
 		<param name="flashVars" value="config={\'playlist\':[{\'url\':\'./?stream='.$_GET['play'].'\',\'autoPlay\':true}]}">
-		<span title="No video playback capabilities, please download the video below">Big Buck Bunny</span>
+		<span>No video playback capabilities</span>
 	</object>
 </video>';
 }
